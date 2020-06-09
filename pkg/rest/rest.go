@@ -26,11 +26,16 @@ import (
 func Rest() {
 	r := gin.Default()
 	r.Static("/hicc", "web")
+	r.GET("/", RedirectToHicc)
 	r.GET("/v1/session", GetSession)
 	r.GET("/v1/dashboard/:id", GetDashboard)
 	r.PUT("/v1/dashboard/:id", SaveDashboard)
 	r.GET("/v1/widget", GetWidget)
 	r.Run()
+}
+
+func RedirectToHicc(c *gin.Context) {
+	c.Redirect(302, "/hicc/home/")
 }
 
 func GetSession(c *gin.Context) {
