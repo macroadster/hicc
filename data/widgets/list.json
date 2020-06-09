@@ -1,0 +1,464 @@
+[
+  {
+    "col": 7,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 1,
+    "title": "Alerts",
+    "src": "/hicc/alerts/",
+    "tokens": [
+      "Alerts"
+    ]
+  },
+  {
+    "col": 7,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 1,
+    "title": "Applications Running",
+    "src": "/hicc/home/apps.html",
+    "tokens": [
+      "Applications",
+      "Running"
+    ]
+  },
+  {
+    "col": 7,
+    "row": 2,
+    "size_x": 2,
+    "size_y": 2,
+    "title": "Applications Usage",
+    "src": "/hicc/apps/apps-usage.html",
+    "tokens": [
+      "Applications",
+      "Usage"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 5,
+    "size_x": 6,
+    "size_y": 5,
+    "title": "CPU Heatmap",
+    "src": "/hicc/v1/heatmap/render/SystemMetrics/cpu.combined.",
+    "tokens": [
+      "CPU",
+      "Heatmap"
+    ]
+  },
+  {
+    "col": 9,
+    "row": 3,
+    "size_x": 2,
+    "size_y": 1,
+    "title": "CPU Utilization",
+    "src": "/hicc/v1/chart/draw/2",
+    "tokens": [
+      "CPU",
+      "Utilization"
+    ]
+  },
+  {
+    "col": 3,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 1,
+    "title": "Cluster Running",
+    "src": "/hicc/home/clusters.html",
+    "tokens": [
+      "Cluster",
+      "Running"
+    ]
+  },
+  {
+    "col": 3,
+    "row": 2,
+    "size_x": 2,
+    "size_y": 2,
+    "title": "Clusters Health",
+    "src": "/hicc/v1/circles/draw/12",
+    "tokens": [
+      "Clusters",
+      "Health"
+    ]
+  },
+  {
+    "col": 7,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 1,
+    "title": "Datanodes Health",
+    "src": "/hicc/v1/tile/draw/14",
+    "tokens": [
+      "Datanodes",
+      "Health"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 4,
+    "size_x": 4,
+    "size_y": 2,
+    "title": "Disk Utilization",
+    "src": "/hicc/v1/chart/draw/4",
+    "tokens": [
+      "Disk",
+      "Utilization"
+    ]
+  },
+  {
+    "col": 7,
+    "row": 2,
+    "size_x": 2,
+    "size_y": 2,
+    "title": "HBase Master Memory",
+    "src": "/hicc/v1/circles/draw/15",
+    "tokens": [
+      "HBase",
+      "Master",
+      "Memory"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 18,
+    "size_x": 6,
+    "size_y": 6,
+    "title": "HBase Master UI",
+    "src": "http://localhost:16010/",
+    "tokens": [
+      "HBase",
+      "Master",
+      "UI"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 14,
+    "size_x": 6,
+    "size_y": 6,
+    "title": "HBase Tables",
+    "src": "http://localhost:50654/tablesDetailed.jsp",
+    "tokens": [
+      "HBase",
+      "Tables"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 7,
+    "size_x": 6,
+    "size_y": 6,
+    "title": "HDFS",
+    "src": "http://localhost:50070/explorer.html#/",
+    "tokens": [
+      "HDFS"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 1,
+    "title": "HDFS High Availability State",
+    "src": "/hicc/v1/tile/draw/11",
+    "tokens": [
+      "HDFS",
+      "High",
+      "Availability",
+      "State"
+    ]
+  },
+  {
+    "col": 3,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 1,
+    "title": "HDFS Load",
+    "src": "/hicc/v1/tile/draw/12",
+    "tokens": [
+      "HDFS",
+      "Load"
+    ]
+  },
+  {
+    "col": 5,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 1,
+    "title": "HDFS Namenode Latency",
+    "src": "/hicc/v1/tile/draw/13",
+    "tokens": [
+      "HDFS",
+      "Namenode",
+      "Latency"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 2,
+    "size_x": 2,
+    "size_y": 2,
+    "title": "HDFS Remaining",
+    "src": "/hicc/v1/circles/draw/8",
+    "tokens": [
+      "HDFS",
+      "Remaining"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 11,
+    "size_x": 6,
+    "size_y": 6,
+    "title": "HDFS UI",
+    "src": "http://localhost:50070/",
+    "tokens": [
+      "HDFS",
+      "UI"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 1,
+    "size_x": 6,
+    "size_y": 6,
+    "title": "Log Search",
+    "src": "/hicc/ajax-solr/chukwa",
+    "tokens": [
+      "Log",
+      "Search"
+    ]
+  },
+  {
+    "col": 9,
+    "row": 4,
+    "size_x": 2,
+    "size_y": 1,
+    "title": "Memory Utilization",
+    "src": "/hicc/v1/chart/draw/3",
+    "tokens": [
+      "Memory",
+      "Utilization"
+    ]
+  },
+  {
+    "col": 3,
+    "row": 2,
+    "size_x": 2,
+    "size_y": 2,
+    "title": "Namenode Memory",
+    "src": "/hicc/v1/circles/draw/7",
+    "tokens": [
+      "Namenode",
+      "Memory"
+    ]
+  },
+  {
+    "col": 5,
+    "row": 4,
+    "size_x": 4,
+    "size_y": 2,
+    "title": "Network Utilization",
+    "src": "/hicc/v1/chart/draw/5",
+    "tokens": [
+      "Network",
+      "Utilization"
+    ]
+  },
+  {
+    "col": 9,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 1,
+    "title": "Node Managers Health",
+    "src": "/hicc/v1/tile/draw/10",
+    "tokens": [
+      "Node",
+      "Managers",
+      "Health"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 1,
+    "size_x": 12,
+    "size_y": 7,
+    "title": "Quick Links",
+    "src": "/hicc/v1/dashboard/quicklinks",
+    "tokens": [
+      "Quick",
+      "Links"
+    ]
+  },
+  {
+    "col": 5,
+    "row": 2,
+    "size_x": 2,
+    "size_y": 2,
+    "title": "Resource Manager Memory",
+    "src": "/hicc/v1/circles/draw/9",
+    "tokens": [
+      "Resource",
+      "Manager",
+      "Memory"
+    ]
+  },
+  {
+    "col": 9,
+    "row": 5,
+    "size_x": 2,
+    "size_y": 1,
+    "title": "Swap Utilization",
+    "src": "/hicc/v1/chart/draw/6",
+    "tokens": [
+      "Swap",
+      "Utilization"
+    ]
+  },
+  {
+    "col": 9,
+    "row": 2,
+    "size_x": 2,
+    "size_y": 1,
+    "title": "System Load Average",
+    "src": "/hicc/v1/chart/draw/1",
+    "tokens": [
+      "System",
+      "Load",
+      "Average"
+    ]
+  },
+  {
+    "col": 5,
+    "row": 2,
+    "size_x": 2,
+    "size_y": 2,
+    "title": "Top Active Clusters",
+    "src": "/hicc/clusters/",
+    "tokens": [
+      "Top",
+      "Active",
+      "Clusters"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 2,
+    "title": "Top Applications",
+    "src": "/hicc/apps/",
+    "tokens": [
+      "Top",
+      "Applications"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 3,
+    "size_x": 2,
+    "size_y": 2,
+    "title": "Top Users",
+    "src": "/hicc/users/",
+    "tokens": [
+      "Top",
+      "Users"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 2,
+    "size_x": 2,
+    "size_y": 2,
+    "title": "Trial Abandon Rate",
+    "src": "/hicc/v1/circles/draw/11",
+    "tokens": [
+      "Trial",
+      "Abandon",
+      "Rate"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 1,
+    "title": "Trial Downloading",
+    "src": "/hicc/home/downloads.html",
+    "tokens": [
+      "Trial",
+      "Downloading"
+    ]
+  },
+  {
+    "col": 5,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 1,
+    "title": "Users Working",
+    "src": "/hicc/home/users.html",
+    "tokens": [
+      "Users",
+      "Working"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 1,
+    "size_x": 12,
+    "size_y": 7,
+    "title": "Welcome Page",
+    "src": "/hicc/welcome.html",
+    "tokens": [
+      "Welcome",
+      "Page"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 7,
+    "size_x": 3,
+    "size_y": 1,
+    "title": "Services Running",
+    "src": "/hicc/services",
+    "tokens": [
+      "services"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 7,
+    "size_x": 6,
+    "size_y": 6,
+    "title": "Timeline",
+    "src": "/hicc/timeline",
+    "tokens": [
+      "event",
+      "timeline"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 7,
+    "size_x": 6,
+    "size_y": 6,
+    "title": "Disk Usage",
+    "src": "/hicc/lib/chart/bar.html",
+    "tokens": [
+      "disk",
+      "storage"
+    ]
+  },
+  {
+    "col": 1,
+    "row": 7,
+    "size_x": 6,
+    "size_y": 6,
+    "title": "Compute Resource Usage",
+    "src": "/hicc/lib/chart/bipolar-area.html",
+    "tokens": [
+      "compute"
+    ]
+  }
+]
