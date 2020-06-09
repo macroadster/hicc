@@ -7,7 +7,7 @@ quickly.
 
 ## Screenshot
 
-<img src="https://github.com/macroadster/hicc/web/images/screenshot.png">
+<img src="https://github.com/macroadster/hicc/raw/master/web/images/screenshot.png">
 
 ## Building HICC
 
