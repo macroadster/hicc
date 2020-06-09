@@ -12,7 +12,7 @@ quickly.
 ## Building HICC
 
 ```
-make
+make clean all
 ```
 
 ## Running HICC
